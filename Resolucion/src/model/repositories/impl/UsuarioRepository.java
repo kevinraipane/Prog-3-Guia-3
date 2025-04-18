@@ -107,6 +107,4 @@ public class UsuarioRepository implements IRepository<UsuarioEntity> {
             stmt.execute();
         }
     }
-
-
 }
