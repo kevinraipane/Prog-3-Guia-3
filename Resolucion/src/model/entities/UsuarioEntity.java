@@ -30,6 +30,17 @@ public class UsuarioEntity {
         this.cuentas =  new ArrayList<>();
     }
 
+    public UsuarioEntity(Integer id, String nombre, String apellido, String dni, String email,
+                         LocalDateTime fechaCreacion) {
+        this.id = id;
+        this.nombre = nombre;
+        this.apellido = apellido;
+        this.dni = dni;
+        this.email = email;
+        this.fechaCreacion = fechaCreacion;
+        this.cuentas = new ArrayList<>();
+    }
+
     //GETTERS
     public Integer getId() {
         return id;
